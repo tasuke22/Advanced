@@ -1,0 +1,37 @@
+@use "global" as *;
+
+.p-mv {
+  background: url(../images/mv.png) no-repeat center center/cover;
+  height: rem(476);
+  position: relative;
+}
+.p-mv__wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.p-mv__title {
+  font-size: rem(48);
+  font-weight: bold;
+  line-height: calc(65 / 48);
+  color: $white;
+}
+.p-mv__text {
+  color: $white;
+  font-size: rem(18);
+  line-height: calc(31 / 18);
+  margin-top: rem(25);
+}
+.p-mv-button {
+  margin: auto;
+  margin-top: rem(51);
+}
+.p-mv__contact {
+  color: $white;
+  font-size: rem(16);
+  line-height: calc(27 / 16);
+  margin-top: rem(22);
+  text-decoration: underline;
+}

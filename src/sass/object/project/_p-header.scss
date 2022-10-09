@@ -1,0 +1,35 @@
+@use "global" as *;
+
+.p-header {
+  display: flex;
+  padding: rem(27) rem(15);
+}
+.p-header__logo {
+  margin-right: rem(28);
+  cursor: pointer;
+}
+
+.p-header__list {
+  display: flex;
+  font-weight: bold;
+  font-size: rem(16);
+  gap: 0 rem(28);
+}
+
+.p-header__wrap {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.p-header__hour {
+  font-size: rem(12);
+  line-height: calc(20 / 12);
+}
+.p-header__info-wrap {
+  text-align: end;
+}
+.p-header__button-wrap {
+  display: flex;
+  margin-left: rem(23);
+  gap: 0 rem(10);
+}

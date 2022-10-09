@@ -19,7 +19,7 @@ html {
   }
 
   // インナー幅＋余白 ~
-  @media ( min-width: $breakpointInner ) {
+  @media (min-width: $breakpointInner) {
     font-size: 100%;
   }
 }
@@ -34,7 +34,7 @@ body {
 a,
 button {
   @include mq(md) {
-    transition: .3s;
+    transition: 0.3s;
     &:hover {
       opacity: 0.7;
       cursor: pointer;

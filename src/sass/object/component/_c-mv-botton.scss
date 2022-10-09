@@ -1,0 +1,13 @@
+@use "global" as *;
+
+.c-mv-button {
+  width: rem(260);
+  padding: rem(16) rem(95);
+  border-radius: rem(31);
+  background-color: $yellow;
+  color: $white;
+  font-weight: bold;
+  font-size: rem(16);
+  line-height: calc(29 / 16);
+  text-align: center;
+}
