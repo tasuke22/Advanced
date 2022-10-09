@@ -17,16 +17,24 @@
   font-weight: bold;
   line-height: calc(65 / 48);
   color: $white;
+  @include mq("sm") {
+  }
 }
 .p-mv__text {
   color: $white;
   font-size: rem(18);
   line-height: calc(31 / 18);
   margin-top: rem(25);
+  @include mq("sm") {
+    margin-top: rem(15);
+  }
 }
 .p-mv-button {
   margin: auto;
   margin-top: rem(51);
+  @include mq("sm") {
+    margin-top: rem(15);
+  }
 }
 .p-mv__contact {
   color: $white;

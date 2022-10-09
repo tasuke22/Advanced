@@ -6,20 +6,40 @@
 }
 .p-header__logo {
   margin-right: rem(28);
+  aspect-ratio: 136/27;
   cursor: pointer;
 }
-
+.p-header__gnav {
+}
 .p-header__list {
   display: flex;
   font-weight: bold;
   font-size: rem(16);
   gap: 0 rem(28);
+  @include mq("lg") {
+    display: block;
+    color: $white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.875rem;
+  }
+}
+.p-header__item {
+  @include mq("lg") {
+    margin-bottom: rem(60);
+    text-align: center;
+  }
 }
 
 .p-header__wrap {
   display: flex;
   align-items: center;
   margin-left: auto;
+  @include mq("lg") {
+    display: none;
+  }
 }
 .p-header__hour {
   font-size: rem(12);
