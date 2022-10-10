@@ -1,8 +1,6 @@
 @use "global" as *;
 
 .p-catch-copy {
-  width: 100vw;
-  margin: 0 calc(50% - 50vw);
   padding-top: rem(63);
   padding-bottom: rem(54);
   background-color: $barkBlue;
