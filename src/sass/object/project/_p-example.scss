@@ -3,9 +3,6 @@
 .p-example {
   background-color: $barkBlue;
 }
-.p-example__title {
-  text-align: center;
-}
 .p-example__wrap {
   display: flex;
   margin-top: rem(137);
@@ -13,6 +10,10 @@
   @include mq("md") {
     display: block;
   }
+}
+.p-example__body {
+  margin: auto;
+  max-width: rem(500);
 }
 .p-example__body:not(:first-child) {
   @include mq("md") {
