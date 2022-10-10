@@ -28,16 +28,14 @@
 }
 
 .p-catch-copy__box p {
-  padding-top: rem(22);
+  padding: rem(22) rem(20) 0;
   color: $barkBlue;
   font-weight: bold;
   font-size: rem(36);
-  display: inline-block;
 }
-.p-catch-copy__box span {
+.p-catch-copy__box p:last-child {
   display: block;
-  padding-top: rem(25);
-  padding-bottom: rem(35);
+  padding: rem(25) rem(20) rem(35);
   color: $barkBlue;
   font-size: rem(18);
   line-height: calc(31 / 18);

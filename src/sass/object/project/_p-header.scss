@@ -27,17 +27,15 @@
   }
 }
 .p-header__item {
-  @include mq("lg") {
-    margin-bottom: rem(60);
-    text-align: center;
-  }
+  margin-bottom: rem(60);
+  text-align: center;
 }
 
 .p-header__wrap {
   display: flex;
   align-items: center;
   margin-left: auto;
-  @include mq("lg") {
+  @include mq("md") {
     display: none;
   }
 }
