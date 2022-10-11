@@ -1,0 +1,7 @@
+@use "global" as *;
+
+.c-time {
+  font-size: rem(12);
+  color: $barkBlue;
+  line-height: calc(20 / 12);
+}

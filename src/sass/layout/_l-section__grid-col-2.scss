@@ -1,0 +1,9 @@
+@use "global" as *;
+
+.l-section__grid-col-2 {
+  display: flex;
+  justify-content: space-between;
+  @include mq("md") {
+    display: block;
+  }
+}
