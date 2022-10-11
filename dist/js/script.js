@@ -43,3 +43,13 @@ jQuery(function ($) {
     $(".js-drawer-nav").toggleClass("open");
   });
 });
+
+$(function () {
+  $(".js-question")
+    .on("click", function () {
+      $(this).next().slideToggle();
+      $(this).toggleClass("is-open");
+    })
+    .eq(0)
+    .trigger("click");
+});

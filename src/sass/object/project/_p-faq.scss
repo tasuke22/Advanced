@@ -1,0 +1,58 @@
+@use "global" as *;
+
+.p-faq__wrap {
+  margin-top: rem(32);
+  margin-bottom: rem(250);
+}
+.p-faq__body {
+  border-top: solid 1px $barkBlue;
+}
+.p-faq__body:last-child {
+  border-bottom: solid 1px $barkBlue;
+}
+.p-faq__question {
+  font-size: rem(16);
+  color: $barkBlue;
+  line-height: calc(27 / 16);
+  padding-block: rem(22);
+  padding-right: rem(26);
+  position: relative;
+}
+
+.p-faq__question::before {
+  content: "";
+  position: absolute;
+  width: rem(25);
+  height: rem(3);
+  background-color: $barkBlue;
+  left: 97%;
+  top: 40%;
+  @include mq(md) {
+    width: rem(15);
+    height: rem(3);
+  }
+}
+.p-faq__question::after {
+  content: "";
+  position: absolute;
+  width: rem(25);
+  height: rem(3);
+  background-color: $barkBlue;
+  left: 97%;
+  top: 40%;
+  transform: rotate(90deg);
+  @include mq(md) {
+    width: rem(15);
+    height: rem(3);
+  }
+}
+
+.p-faq__answer {
+  display: none;
+  font-size: rem(16);
+  color: $barkBlue;
+  background-color: #f8f8f8;
+  line-height: calc(27 / 16);
+  padding: rem(22) rem(26);
+  margin-bottom: rem(15);
+}
