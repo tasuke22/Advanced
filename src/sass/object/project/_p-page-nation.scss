@@ -1,0 +1,24 @@
+@use "global" as *;
+
+.p-page-nation__page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: rem(50);
+  height: rem(50);
+  color: $white;
+  background-color: $barkBlue;
+  font-size: rem(16);
+  line-height: calc(27 / 16);
+  font-weight: bold;
+}
+
+.p-page-nation__page--white {
+  background-color: $white;
+  color: $barkBlue;
+  border: solid 1px $barkBlue;
+}
+
+.p-page-nation__page--dot {
+  border: none;
+}

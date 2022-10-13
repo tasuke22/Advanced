@@ -1,0 +1,9 @@
+@use "global" as *;
+
+.l-page-nation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: rem(106);
+  column-gap: rem(20);
+}
