@@ -7,3 +7,18 @@
     display: block;
   }
 }
+
+.l-left {
+  width: calc(590 / 900 * 100%);
+  margin-top: rem(60);
+  @include mq("md") {
+    width: 100%;
+  }
+}
+.l-right {
+  width: calc(270 / 900 * 100%);
+  margin-top: rem(60);
+  @include mq("md") {
+    width: 100%;
+  }
+}

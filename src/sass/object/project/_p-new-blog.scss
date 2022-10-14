@@ -52,6 +52,10 @@
   text-decoration: underline;
   margin-top: rem(20);
 }
+.p-new-blog__title--s {
+  font-size: rem(18);
+  line-height: calc(27 / 18);
+}
 .p-new-blog__text {
   font-size: rem(16);
   line-height: calc(24 / 16);
