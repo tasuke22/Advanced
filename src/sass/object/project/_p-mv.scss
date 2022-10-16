@@ -2,7 +2,6 @@
 
 .p-mv {
   background: url(../images/mv.png) no-repeat center center/cover;
-  height: rem(476);
   position: relative;
 }
 .p-mv__wrap {
@@ -17,23 +16,18 @@
   font-weight: bold;
   line-height: calc(65 / 48);
   color: $white;
-  @include mq("sm") {
-  }
 }
 .p-mv__text {
   color: $white;
   font-size: rem(18);
   line-height: calc(31 / 18);
   margin-top: rem(25);
-  @include mq("sm") {
-    margin-top: rem(15);
-  }
 }
-.p-mv-button {
+.p-mv__button {
   margin: auto;
   margin-top: rem(51);
-  @include mq("sm") {
-    margin-top: rem(15);
-  }
 }
 
+.p-mv__contact {
+  margin-top: rem(22);
+}

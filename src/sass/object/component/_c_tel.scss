@@ -1,17 +1,17 @@
 @use "global" as *;
 
-.c-tell {
+.c-tel {
   color: $barkBlue;
   font-weight: bold;
   line-height: calc(27 / 16);
   display: flex;
   align-items: center;
 }
-.c-tell--white {
+.c-tel--white {
   color: $white;
 }
 
-.c-tell::before {
+.c-tel::before {
   content: "";
   width: rem(14);
   height: rem(15);
@@ -19,7 +19,7 @@
   background: url(../images/tell.svg) no-repeat center;
 }
 
-.c-tell--white::before {
+.c-tel--white::before {
   content: "";
   width: rem(14);
   height: rem(15);
