@@ -2,15 +2,12 @@
 
 .l-inner {
   max-width: $innerWidth + $padding-pc * 2;
-  padding-right: rem(strip-unit($padding-pc));
-  padding-left: rem(strip-unit($padding-pc));
-  margin: auto;
+  padding-inline: rem(strip-unit($padding-sp));
+  margin-inline: auto;
   @include mq(md) {
     width: 100%;
-    padding-right: rem(strip-unit($padding-sp));
-    padding-left: rem(strip-unit($padding-sp));
-    margin-right: auto;
-    margin-left: auto;
+    padding-inline: rem(strip-unit($padding-sp));
+    margin-inline: auto;
   }
 }
 
