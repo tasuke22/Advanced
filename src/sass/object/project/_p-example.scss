@@ -6,7 +6,7 @@
 .p-example__wrap {
   display: flex;
   margin-top: rem(137);
-  gap: 0 rem(30);
+  gap: 0 rem(35);
   @include mq("md") {
     display: block;
   }
@@ -15,6 +15,7 @@
   margin: auto;
   max-width: rem(500);
 }
+
 .p-example__body:not(:first-child) {
   @include mq("md") {
     margin-top: rem(40);
@@ -42,7 +43,7 @@
   margin-top: auto;
 }
 
-.p-example__info-wrap {
+.p-example__info {
   display: flex;
   justify-content: space-between;
 }
@@ -52,7 +53,6 @@
   padding-left: rem(10);
   background-color: $white;
   color: $barkBlue;
-
   padding-block: rem(8);
 }
 .p-example__name {
@@ -61,7 +61,6 @@
   padding-left: rem(10);
   background-color: $white;
   color: $barkBlue;
-
   padding-block: rem(8);
 }
 .p-example__point {
@@ -69,6 +68,5 @@
   padding-left: rem(10);
   background-color: $white;
   color: $barkBlue;
-
   padding-block: rem(8);
 }

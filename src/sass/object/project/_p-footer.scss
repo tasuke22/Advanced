@@ -2,7 +2,6 @@
 
 .p-footer {
   background-color: $barkBlue;
-
 }
 .p-footer__wrap {
   display: flex;
@@ -16,12 +15,9 @@
   display: flex;
   @include mq("md") {
     flex-direction: column;
-    gap: rem(20) 0;
-    border: none;
-    border-left: solid none $white;
+    row-gap: rem(20);
   }
 }
-
 .p-footer__item {
   color: $white;
   font-size: rem(16);
@@ -31,6 +27,7 @@
   border-left: solid 1px $white;
   @include mq("md") {
     padding: 0;
+    border: none;
   }
 }
 
@@ -38,7 +35,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: rem(15) 0;
+  row-gap: rem(15);
   color: $white;
 }
 .p-footer__logo {

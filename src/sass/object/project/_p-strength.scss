@@ -1,11 +1,8 @@
 @use "global" as *;
 
-.p-strength {
-  text-align: center;
-}
 .p-strength__wrap {
   display: flex;
-  gap: 0 calc(50 / 900 * 100%);
+  column-gap: calc(50 / 900 * 100%);
   margin-top: rem(59);
   @include mq("md") {
     display: block;

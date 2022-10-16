@@ -1,11 +1,8 @@
 @use "global" as *;
 
-.p-blog {
-}
-
 .p-blog__wrap {
   display: flex;
-  gap: 0 rem(20);
+  column-gap: rem(20);
 }
 .p-blog__wrap:not(:first-child) {
   margin-top: rem(31);
