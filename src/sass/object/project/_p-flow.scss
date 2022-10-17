@@ -27,14 +27,14 @@
 .p-flow__title {
   padding: rem(25) rem(21) rem(21) rem(21);
   background-color: #f8f8f8;
-  color: $barkBlue;
+  color: $darkBlue;
   font-weight: bold;
   font-size: rem(18);
 }
 .p-flow__text {
   padding: rem(25) rem(21) rem(21) rem(53);
   background-color: #f8f8f8;
-  color: $barkBlue;
+  color: $darkBlue;
   font-size: rem(16);
   position: relative;
   @include mq("md") {

@@ -4,7 +4,7 @@
   margin-top: rem(31);
 }
 .p-blog__time {
-  color: $barkBlue;
+  color: $darkBlue;
   line-height: calc(20 / 12);
 }
 .p-news__body:not(:first-child) {
@@ -14,7 +14,7 @@
   }
 }
 .p-news__text {
-  color: $barkBlue;
+  color: $darkBlue;
   font-size: rem(16);
   line-height: calc(27 / 16);
   text-decoration: underline;

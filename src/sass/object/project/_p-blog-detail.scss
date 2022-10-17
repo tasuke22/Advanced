@@ -3,7 +3,7 @@
 .p-blog-detail__category {
   width: rem(110);
   padding: rem(10) rem(25);
-  background-color: $barkBlue;
+  background-color: $darkBlue;
   color: $white;
   font-size: rem(12);
   line-height: calc(20 / 12);
@@ -74,7 +74,7 @@
   display: flex;
   flex-direction: column;
   margin-top: rem(40);
-  color: $barkBlue;
+  color: $darkBlue;
   row-gap: rem(30);
 }
 .p-blog-detail__contents-title {

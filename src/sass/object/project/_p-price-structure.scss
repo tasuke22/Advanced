@@ -1,7 +1,7 @@
 @use "global" as *;
 
 .p-price-structure {
-  color: $barkBlue;
+  color: $darkBlue;
 }
 
 .p-price-structure__title {
@@ -18,7 +18,7 @@
 .p-price-structure__admission {
   width: rem(280);
   padding: rem(34) rem(10);
-  background-color: $barkBlue;
+  background-color: $darkBlue;
   color: $white;
   font-weight: bold;
   font-size: rem(22);
@@ -29,7 +29,7 @@
 .p-price-structure__plus {
   width: rem(100);
   background-color: $white;
-  color: $barkBlue;
+  color: $darkBlue;
   font-size: rem(50);
   @include mq("md") {
     font-size: rem(30);
@@ -39,7 +39,7 @@
 .p-price-structure__monthly {
   width: rem(280);
   padding: rem(34) rem(10);
-  background-color: $barkBlue;
+  background-color: $darkBlue;
   color: $white;
   font-weight: bold;
   font-size: rem(22);

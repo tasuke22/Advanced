@@ -3,7 +3,7 @@
 .p-catch-copy {
   padding-top: rem(63);
   padding-bottom: rem(54);
-  background-color: $barkBlue;
+  background-color: $darkBlue;
   text-align: center;
 }
 .p-catch-copy__text-wrap {
@@ -26,20 +26,20 @@
   margin: 0 auto;
   margin-top: rem(94);
   background-color: $white;
-  outline: rem(5) solid $barkBlue;
+  outline: rem(5) solid $darkBlue;
   outline-offset: -1rem;
 }
 
 .p-catch-copy__box p {
   padding: rem(22) rem(20) 0;
-  color: $barkBlue;
+  color: $darkBlue;
   font-weight: bold;
   font-size: rem(36);
 }
 .p-catch-copy__box p:last-child {
   display: block;
   padding: rem(25) rem(20) rem(35);
-  color: $barkBlue;
+  color: $darkBlue;
   font-size: rem(18);
   line-height: calc(31 / 18);
 }

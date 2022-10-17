@@ -31,13 +31,13 @@
   font-size: rem(26);
   font-weight: bold;
   line-height: calc(39 / 26);
-  color: $barkBlue;
+  color: $darkBlue;
   margin-top: rem(27);
 }
 .p-strength__text {
   font-size: rem(16);
   line-height: calc(27 / 16);
-  color: $barkBlue;
+  color: $darkBlue;
   margin-top: rem(27);
   @include mq("md") {
     max-width: rem(600);

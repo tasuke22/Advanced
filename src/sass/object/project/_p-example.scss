@@ -1,7 +1,7 @@
 @use "global" as *;
 
 .p-example {
-  background-color: $barkBlue;
+  background-color: $darkBlue;
 }
 .p-example__wrap {
   display: flex;
@@ -52,7 +52,7 @@
   margin-top: rem(16);
   padding-left: rem(10);
   background-color: $white;
-  color: $barkBlue;
+  color: $darkBlue;
   padding-block: rem(8);
 }
 .p-example__name {
@@ -60,13 +60,13 @@
   margin-top: rem(16);
   padding-left: rem(10);
   background-color: $white;
-  color: $barkBlue;
+  color: $darkBlue;
   padding-block: rem(8);
 }
 .p-example__point {
   margin-top: rem(10);
   padding-left: rem(10);
   background-color: $white;
-  color: $barkBlue;
+  color: $darkBlue;
   padding-block: rem(8);
 }

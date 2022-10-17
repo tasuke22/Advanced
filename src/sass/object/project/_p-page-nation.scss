@@ -14,13 +14,13 @@
   width: rem(50);
   height: rem(50);
   background-color: $white;
-  color: $barkBlue;
-  border: solid 1px $barkBlue;
+  color: $darkBlue;
+  border: solid 1px $darkBlue;
   font-size: rem(16);
   line-height: calc(27 / 16);
   font-weight: bold;
 }
 .p-page-nation__number--current {
   color: $white;
-  background-color: $barkBlue;
+  background-color: $darkBlue;
 }
