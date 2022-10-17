@@ -5,3 +5,4 @@ dist/css/styles.css.map
 dist/images/
 .vscode
 *.md
+.idea
