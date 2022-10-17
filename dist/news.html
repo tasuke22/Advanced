@@ -27,22 +27,22 @@
 
 <body>
   <header class="l-header p-header">
-    <div class="p-header__logo">
-      <a href=""><img src="./images/logo.svg" alt="ロゴ"></a>
+    <div class="c-logo">
+      <a href="index.html"><img src="./images/logo.svg" alt="ロゴ"></a>
     </div>
-    <nav class="p-header__gnav js-drawer-nav">
-      <ul class="p-header__list">
-        <a href="">
-          <li class="p-header__item">ホーム</li>
+    <nav class="p-gnav js-drawer-nav">
+      <ul class="p-gnav__list">
+        <a href="index.html">
+          <li class="p-gnav__item">ホーム</li>
         </a>
-        <a href="">
-          <li class="p-header__item">お知らせ</li>
+        <a href="news.html">
+          <li class="p-gnav__item">お知らせ</li>
         </a>
-        <a href="">
-          <li class="p-header__item">ブログ</li>
+        <a href="blog.html">
+          <li class="p-gnav__item">ブログ</li>
         </a>
-        <a href="">
-          <li class="p-header__item">コース・料金</li>
+        <a href="price.html">
+          <li class="p-gnav__item">コース・料金</li>
         </a>
       </ul>
     </nav>
@@ -52,19 +52,22 @@
       <span></span>
     </button>
     <div class="p-header__wrap">
-      <div class="p-header__info-wrap">
+      <div class="p-header__info">
         <span class="c-business-hours">平日08:00〜20:00</span>
-        <span class="c-tel">
-          0123-456-7890
-        </span>
+        <a class="c-tel" href="tel:0123-456-7890">0123-456-7890</a>
       </div>
-      <div class="p-header__button-wrap">
-        <button class="c-header-button">
-          資料請求
-        </button>
-        <button class="c-header-button c-header-button__bark-blue">
-          お問い合わせ
-        </button>
+
+      <div class="p-header__button">
+        <a href="contact.html">
+          <div class="c-header-button">
+            資料請求
+          </div>
+        </a>
+        <a href="contact.html">
+          <div class="c-header-button c-header-button__dark-blue">
+            お問い合わせ
+          </div>
+        </a>
       </div>
     </div>
   </header>
@@ -99,7 +102,7 @@
       <ul class="p-news-summary__list">
         <li class="p-news-summary__item">
           <time class="c-time c-time--sub" datetime="2020-12-30">2020-12-30</time>
-          <p class="p-news-summary__text"><a href="">お知らせのタイトルテキストテキストテキストテキストテキストテキストテキスト</a></p>
+          <p class="p-news-summary__text"><a href="news_detail.html">お知らせのタイトルテキストテキストテキストテキストテキストテキストテキスト</a></p>
         </li>
         <li class="p-news-summary__item">
           <time class="c-time c-time--sub" datetime="2020-12-30">2020-12-30</time>
@@ -143,27 +146,27 @@
 
   </section>
 
-  <div class="l-page-nation p-page-nation">
+  <div class="l-news-page-nation p-page-nation">
     <a href="">
-      <div class="p-page-nation__page">1</div>
+      <div class="p-page-nation__number p-page-nation__number--current">1</div>
     </a>
     <a href="">
-      <div class="p-page-nation__page p-page-nation__page--white">2</div>
+      <div class="p-page-nation__number">2</div>
     </a>
     <a href="">
-      <div class="p-page-nation__page p-page-nation__page--white">3</div>
+      <div class="p-page-nation__number">3</div>
     </a>
     <a href="">
-      <div class="p-page-nation__page p-page-nation__page--white p-page-nation__page--dot">…</div>
+      <div>…</div>
     </a>
     <a href="">
-      <div class="p-page-nation__page p-page-nation__page--white">5</div>
+      <div class="p-page-nation__number">5</div>
     </a>
   </div>
 
 
 
-  <section class="l-document p-document">
+  <section class="l-news-document p-document">
     <div class="p-document__title">
       まずは無料で資料請求から
     </div>

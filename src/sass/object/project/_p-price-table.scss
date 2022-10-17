@@ -1,12 +1,14 @@
 @use "global" as *;
 
-.p-price-table {
+.p-price-table__title {
   text-align: center;
 }
+
 .p-price-table__wrap {
   display: flex;
   justify-content: space-between;
   margin-top: rem(106);
+  text-align: center;
   @include mq("md") {
     display: block;
   }

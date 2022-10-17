@@ -49,6 +49,9 @@
 .p-contactForm__privacy span {
   color: $yellow;
 }
+.p-contactForm__privacy-text span {
+  text-decoration: underline;
+}
 .p-contactForm__privacy-check {
   margin-top: rem(33);
   display: flex;
@@ -60,6 +63,7 @@
   height: rem(20);
   margin-right: rem(15);
 }
+
 .p-contactForm__button-wrap {
   text-align: center;
 }
@@ -71,5 +75,6 @@
   border-radius: 5px;
   margin-top: rem(48);
   margin-bottom: rem(82);
+  cursor: pointer;
   font-weight: bold;
 }
